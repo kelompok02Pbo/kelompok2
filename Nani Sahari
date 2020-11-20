@@ -1,0 +1,33 @@
+<?php
+class kendaraan{
+    
+    var $warna;
+    var $merek;
+    var $ukuran;
+    
+    function tampilkan_warna(){
+        return "Pink<br/>";
+        
+    }
+
+    function merek_motor(){
+        return "Yamaha<br/>";
+        
+    }
+    
+    function ukuran_motor(){
+        return "P 1,820 mm,L 675 mm,T 1,050 mm <br/>";
+    }
+
+}
+
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilkan_warna();
+
+echo $kendaraan->merek_motor();
+
+echo $kendaraan->ukuran_motor();
+
+
+?>
