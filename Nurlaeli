@@ -1,0 +1,24 @@
+<?php
+
+class kendaraan{
+    //property OOP
+    var $warna;
+    var $merek;
+    var $ukuran;
+    
+    //method OOP
+    function warna(){
+        return "pink <br/>";
+      
+}
+    function merek(){
+        return "Yamaha <br/>";
+      
+    }
+    
+    function ukuran(){
+        return "P 1,820 mm,L 675 mm,T 1,050 mm <br/>";
+    }
+}
+
+ ?>
