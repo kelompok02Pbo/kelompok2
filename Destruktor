@@ -1,0 +1,26 @@
+<?php
+class kendaraan{
+    
+    var $warna;
+    var $merek;
+    var $ukuran;
+
+   function __construct(){
+      echo " merek_motor <br/>";
+        
+   }
+
+   function __destruct(){
+      echo " ukuran_motor <br/>";
+
+   function tampilkan_warna(){
+      return "Pink <br/>";
+        
+   }
+
+}
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilkan_warna();
+
+?>
