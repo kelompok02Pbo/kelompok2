@@ -1,12 +1,12 @@
 <?php
 
 class kendaraan{
-    //property OOP
+    
     var $warna;
     var $merek;
     var $ukuran;
     
-    //method OOP
+    
     function warna(){
         return "pink <br/>";
       
