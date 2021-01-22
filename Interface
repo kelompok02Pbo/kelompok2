@@ -1,0 +1,18 @@
+<?php
+interface User {
+    public function username();
+    public function gender();
+}
+
+class Member implements user{
+ 
+    public function username() {  
+        return "Username";  
+    }
+ 
+    public function gender() {
+        return "gender";
+    } 
+}
+
+$member = new Member();
